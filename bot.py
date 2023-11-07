@@ -1,5 +1,5 @@
 import pyrogram , pyromod
-
+from config import Config 
 from pyromod import listen
 
 from pyrogram import Client, filters, enums
