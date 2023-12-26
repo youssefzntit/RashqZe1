@@ -27,8 +27,8 @@ async def generate_session(app,message):
     phone = None
     code = None
     msg = message
-    api_id = 21627756
-    api_hash = "fe77fbf0cae9f7f5ece37659e2466cf1"
+    api_id = 19768714
+    api_hash = "ac680c77aa60dcc1436071a4ec2dac2a"
     ask = await app.ask(
         message.chat.id,
         "[ علمود تسجل، ارسل رقمك هسة ]\n- مثال: \n+12054092413 ..",
